@@ -40,21 +40,22 @@
 				</tr>
 				<tr>
 				
-				</ol>
+				</tr>
 			</table>    
 			<input type="submit" name="btnsubmit" value="submit">
-			<a href="{{ url_for('home_page'}}">Home page</a>
+			<a href="{{ url_for('home_page') }}">Home page</a>
 
 			<h1>tipe of exercises</h1>
-				<ol>
+				<ul>
 <!--					{%if likes_same_sport == True%}-->
-						{%for exe in exersice%}
+						<li>test</li>
+						{%for exe in exersices%}
 						<li>{{exe}}</li>
 						{%endfor%}
 <!--					{%else%}
 						<p>i don't like sports</p>	
 					{%endif%}-->
-				</ol>
+				</ul>
 		
 		<a href="#top">GO UP</a>
 		
